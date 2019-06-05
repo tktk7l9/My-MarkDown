@@ -1,4 +1,4 @@
-# my-markdown
+# takuyasmarkdown
 
 > A Vue.js project
 
