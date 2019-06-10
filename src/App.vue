@@ -9,14 +9,14 @@
 import Home from "./components/Home.vue";
 import Editor from "./components/Editor.vue";
 
-export default{
+export default {
   name: "app",
-  data(){
-    return{
+  data() {
+    return {
       isLogin: false
     };
   },
-  components:{
+  components: {
     Home: Home,
     Editor: Editor
   }

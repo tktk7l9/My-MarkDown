@@ -7,8 +7,8 @@
 <script>
 export default {
     name: "editor",
-    data(){
-        return{};
+    data() {
+        return {};
     }
 };
 </script>
