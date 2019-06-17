@@ -1,6 +1,6 @@
 <template>
-    <div id="home">
-        <h1>{{ msg }}</h1>
+    <div class="home">
+        <h1><img alt="MyMarkdown" src="../assets/logo.png"></h1>
         <button @click="googleLogin">Googleアカウントでログイン</button>
     </div>
 </template>
@@ -20,5 +20,5 @@ export default {
                 .signInWithRedirect(new firebase.auth.GoogleAuthProvider());      
         }
     }
-};
+}
 </script>
